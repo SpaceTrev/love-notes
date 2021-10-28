@@ -1,4 +1,6 @@
-body.body {
+body {
+  margin-top: 150px;
+  margin-bottom: 150px;
   padding: 20px;
   overflow-x: hidden;
   text-align: center;
