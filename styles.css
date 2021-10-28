@@ -1,5 +1,5 @@
 body {
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 150px;
   padding: 20px;
   overflow-x: hidden;
@@ -8,8 +8,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 90vw;
+  min-height: 90vh;
   color: #d3d3d3;
   font-family: Courier New;
   background: #355c7d;
