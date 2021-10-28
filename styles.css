@@ -1,0 +1,54 @@
+body.body {
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #d3d3d3;
+  font-family: Courier New;
+  background: #355c7d;
+  background: -webkit-linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 611px) {
+  .flex {
+    max-width: 450px;
+  }
+  h1.header {
+    font-size: 18px;
+    padding-top: 40px !important;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+  max-width: 600px;
+  justify-items: center;
+  text-align: left;
+}
+
+br {
+  margin-bottom: "10px";
+}
